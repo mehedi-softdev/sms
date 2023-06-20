@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.DashboardFragment">
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/ic_person"
+        android:id="@+id/person_image"
+        app:tint="#670A0A"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/todo"
+        />
+
+    <TextView
+        android:id="@+id/person_name"
+        android:layout_width="wrap_content"
+        android:maxWidth="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mehedi_hasan"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/person_image"
+        android:textSize="12sp"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/total_fees"
+        android:layout_width="50dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/_0_00"
+        android:textColor="#9909F428"
+        android:textSize="15sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/student_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/total_fees"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="5dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/person_add"
+        app:backgroundTint="#02A58A"
+        app:rippleColor="@color/white"
+        android:id="@+id/btn_add_student"
+        />
+
+
+</RelativeLayout>

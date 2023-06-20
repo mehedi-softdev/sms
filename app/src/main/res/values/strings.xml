@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">sms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admission_form">Admission Form</string>
+    <string name="student_name">Student Name</string>
+    <string name="jhon_doe">Jhon Doe</string>
+    <string name="father_name">Father Name</string>
+    <string name="admission_date">Admission Date</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="tuition_fees">Tuition Fees</string>
+    <string name="_0_00">0.00</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="_019xxxxxxxx">019XXXXXXXX</string>
+    <string name="store">Store</string>
+    <string name="update_student_information">Update Student Infromation</string>
+    <string name="student_id">Student ID</string>
+    <string name="_203949">203949</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="todo">todo</string>
+    <string name="mehedi_hasan">Mehedi Hasan</string>
+    <string name="bdt">%.2f BDT</string>
+</resources>
