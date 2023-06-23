@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.Sms" parent="Base.Theme.Sms" />
+
+    <!--    for splash screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenBackground">#0AA581</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.Sms</item>
+    </style>
 </resources>
